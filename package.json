@@ -1,0 +1,21 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "static": " node src/app",
+    "start": "nodemon src/app.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "fastify": "^4.26.0",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.1.0"
+  }
+}
